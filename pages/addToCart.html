@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to cart</title>
+   <link rel="stylesheet" type="text/css" href="../assets/css/addToCart.css">
+   <link rel="stylesheet" type="text/css" href="../assets/css/homebeauty.css">
+</head>
+<body>
+    <div class="navbar">
+        <div id="text_head">
+          <img src="../assets/img/logo in black.png" alt="" width="10%" height= "85px">
+        </div>
+        <a href="../index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Arts 
+          </button>
+          <div class="dropdown-content">
+            <a href="./pencilarts.html">Pencil Arts</a>
+            <a href="#">Painting</a>
+            <a href="./sellArts.html">Sell Arts</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">
+            Artists 
+          </button>
+          <div class="dropdown-content">
+            <a href="./pencilArtists.html"> 
+              Pencil Artists</a>
+            <a href="./painter.html">Painter Artists</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Lesson
+          </button>
+          <div class="dropdown-content">
+            <a href="./drawingLesson.html"> Drawing Lesson</a>
+            <a href="#">Paintings</a>
+            <a href="./draw.html">Draw</a>
+          </div>
+        </div> 
+        <a href="#">Buy Materials</a>
+        <a href="./signup.html">Sign Up</a>
+    </div>
+    <div id="cartPage">
+        <a class="sell" href="../pages/sellArts.html" >Sell arts</a>
+      <a class="buy" href="../pages/buyArts.html">Buy arts</a>  
+    </div>
+    <div class="addToCart_products" id="cart_container" >
+    </div>
+    <div class="totalContains" id="totalRate" >
+      <button id="continueBtn" onclick="nextPage()">Continue</button>
+    </div>
+   
+    <script src="../assets/js/addToCart.js"></script>
+</body>
+</html>

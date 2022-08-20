@@ -1,0 +1,114 @@
+body{
+    background-color:white;
+}
+
+.products{
+    padding-top: 5%;
+    display: flex;
+    flex-flow: row wrap;    
+}
+.productContainer{
+    background-color: #dfdddd;
+    width: 15%;
+    height: 200;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: floralwhite;
+    border-width: 2%;
+    border-style: groove;
+    box-shadow: -5px 5px 10px  white;
+    padding: 20px;
+}
+.image{
+    box-shadow: -10px 10px 20px  lightslategrey;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.addedToCart{
+    text-align: center;
+    margin: 25%;
+    font-size: 2vh;
+}
+.Content{
+    font-size: 2vh;
+    color: grey;
+    margin-left: 5%;
+}
+p{
+    color: grey;
+    text-shadow: 1px 1px grey;
+}
+.artistName{
+    color: black;
+    text-shadow: 1px 1px black;
+}
+.artName{
+    color: black;
+    text-shadow: 1px 1px black;
+}
+.rate{
+    
+    margin-left: 30%;
+    font-size: 3vh;
+    color: black;
+}
+#cartPage{
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 10px 10px 20px grey;
+    padding-bottom: 4px;
+    padding-left: 3%;
+    font-size: 2.5vh;
+    width: 97%;
+    height: 35px;
+    padding-top: 6%;
+    z-index: 1;
+}
+.cart_btn{
+    margin-left: 3%; 
+    width: 5%;
+    padding: 7px;
+}
+.cart_btn:hover{
+    cursor:pointer;
+    padding: 5px;
+    background-color: #5e5d5d;
+}
+.sell{
+   margin-left: 3%; 
+   width: 5%;
+   padding: 7px;
+}
+.sell:hover{
+    cursor:pointer;
+    padding: 5px;
+    background-color: #5e5d5d;
+}
+#cartNumbers{
+    margin-left: 10.5%;
+    color: black;
+    margin-right: 91%;
+    padding: 0%;
+    margin-top: 0%;
+}
+.wishlist{
+    margin-left: 70%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.cartContainer{
+    float: right;
+    background-color: blanchedalmond;
+    width: 30%;
+    height: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.addToCart{
+    cursor: pointer;
+}
+

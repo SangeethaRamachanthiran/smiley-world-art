@@ -1,0 +1,84 @@
+body{
+  background-color: #F2F5EA;
+}
+
+#table 
+{
+  font-size: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10%;
+  width: 75vh;
+  height: 40vh;
+}
+.signupContainer {
+  display: flex;
+  flex-flow: row;
+}
+#signupImg {
+  width: 55%;
+  height: 570px;
+  margin-left: 45%;
+  margin-right: 15%;
+  margin-top: 4%;
+}
+#myForm{
+  background-color: #fcd0bb;
+  margin-top: 5%;
+  /* border-radius: 10vh; */
+ 
+}
+#container {
+  margin-right: 15%;
+}
+#name{
+  margin-left: 10vh;
+  
+}
+#email{
+  margin-left: 10vh;
+  margin-top: 20vh;
+}
+#confirmPassword{
+  margin-left: 10vh;
+  margin-top: 20vh;
+}
+#userPassword{
+  margin-left: 10vh;
+  margin-top: 20vh;
+}
+#userName{
+  font-size: 2vh;
+  border-radius: 25vh;
+  border-color: white;
+  margin-left: 7vh;
+  padding: 10;
+}
+#emailId{
+  font-size: 2vh;
+  border-radius: 25vh;
+  border-color: white;
+  margin-left: 5vh;
+}
+#password{
+  font-size: 2vh;
+  border-radius: 25vh;
+  border-color: white;
+  margin-left: 3vh;
+}
+#confirm{
+  font-size: 2vh;
+  border-radius: 25vh;
+  border-color: white;
+  margin-left: 2vh;
+}
+#errorMsg{
+  color: red;
+  font-size: 3vh;
+  margin-left: 50%;
+  background-color: rgb(46, 41, 41);
+}
+
+#button:hover {
+  background-color: slategray;
+  color: cornsilk;
+}

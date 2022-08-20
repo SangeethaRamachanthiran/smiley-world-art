@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell your arts Here</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/homebeauty.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/sellArts.css">
+</head>
+<body bgcolor="#C9CCD5">
+    <div class="navbar">
+        <div id="text_head">
+          <img src="../assets/img/logo in black.png" alt="" width="10%" height= "85px">
+        </div>
+       
+        <a href="../index.html">Home</a>
+      
+        <div class="dropdown">
+          <button class="dropbtn">
+            Arts 
+          </button>
+          <div class="dropdown-content">
+            <a href="./pencilarts.html">Pencil Arts</a>
+            <a href="#">Painting</a>
+            <a href="#">Sell Arts</a> 
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">
+            Artists 
+          </button>
+          <div class="dropdown-content">
+            <a href="./pencilArtists.html"> 
+              Pencil Artists</a>
+            <a href="./painter.html">Painter Artists</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Lesson
+          </button>
+          <div class="dropdown-content">
+            <a href="./drawingLesson.html" onclick="clickHandler()"> Drawing Lesson</a>
+            <a href="#">Paintings</a>
+            <a href="./draw.html">Draw</a>
+          </div>
+        </div> 
+        <a href="#">Buy Materials</a>
+        <a href="./signup.html">Sign Up</a>
+    </div>
+    <div id="cartPage">
+      <a class="buy" href="../pages/buyArts.html">Buy arts</a>  
+    </div>
+   <div class="content">
+    <div class="images">
+        <img src="../assets/img/sellArt.jpeg" alt="sellArt" width="50%" height="620px">
+    </div>
+    <form class="myForm" onsubmit="submitHandler(event)">
+        <input id="artistName" type="text" placeholder="Artist name" required>
+        <br><br>
+        <input id="place" type="text" placeholder="Place" required>
+        <br><br>
+        <input id="artName" type="text" placeholder="Art name" required>
+        <br><br>
+        <input id="artType" type="text" placeholder="Type of art" required>
+        <br><br>
+        <input id="price" type="number" placeholder="Price of the art" min="100" required >
+        <br><br>
+        <input id="image" type="text" placeholder="image link" required>
+        <br><br>
+        <button class="addButton" type="submit" value="Add">Add </button>
+       
+    </form>
+   </div>
+<script src="../assets/js/sellArts.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+#cartPage{
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 10px 10px 20px grey;
+    padding-bottom: 4px;
+    padding-left: 3%;
+    font-size: 2.5vh;
+    width: 97%;
+    height: 35px;
+    padding-top: 6%;
+    z-index: 1;
+}
+.cartBtn{
+    margin-left: 3%; 
+    width: 5%;
+    padding: 7px;
+ }
+ .cartBtn:hover{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #5e5d5d;
+}
+.buy{
+   margin-left: 3%; 
+   width: 5%;
+   padding: 7px;
+   
+}
+.buy:hover{
+    cursor:pointer;
+    padding: 5px;
+    background-color: #5e5d5d;
+}
+.sell{
+    margin-left: 3%; 
+    width: 5%;
+    padding: 7px;
+ }
+ .sell:hover{
+     cursor:pointer;
+     padding: 5px;
+     background-color: #5e5d5d;
+ }
+.addToCart_products{
+    display: flex; 
+    flex-flow: column; 
+    margin: 0%;
+}
+.cart_products{
+    border-width: 1px;
+    border-bottom-style:groove;
+    border-bottom-color:  black; 
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    height: 250px;
+}
+.image{
+    
+    width: 15%;
+    background: yellow;
+    height: 200px;
+    position: absolute;
+    flex: none;
+    left: 5%;
+    box-shadow: -10px 10px 20px  lightslategrey;  
+}
+.artName{
+   padding-left: 3%;
+   padding-top: 5%;
+   position: absolute;
+   left: 20%;
+   width: 10%;
+   font-size: 3vh;
+   height: 200px;
+   color: black;
+   margin-left: 0%;
+}
+.rate{
+   font-size: 3vh;
+   position: relative;
+   width: 15%;
+   left: 14%;
+   margin-left: 25%;
+   margin-top: 5%;
+}
+.qnty{
+    display: flex; 
+    flex-flow: row; 
+    margin-left: 50%;
+
+}
+.inputBox {
+    font-size: 2vh;
+    width: 2%;
+    margin-left: 1%;
+    padding-top: 0.5%;
+}
+.insButton{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 3%;
+    background-color: lightgray;
+    font-size: 3vh;
+    height: 5;
+}
+.insButton:hover{
+    background-color: grey;
+}
+
+.button{
+    margin-top: 1%;
+    width: 3%;
+    height: 5;
+    background-color: lightgray;
+    font-size: 3vh;
+    
+}
+.button:hover{
+    background-color: grey;
+}
+
+#number{
+    width: 15%;
+}
+.priceValue{
+    font-size: 3vh;
+    margin-left: 70%;    
+}
+.totalValue{
+   font-size: 3vh;
+   width: 25%;
+   float: right;
+   margin-top: 5%;
+}
+
+.removeBtn{
+    float: right;
+    margin-right: 10%;
+    cursor: pointer; 
+    font-size: 2vh;     
+}
+.removeBtn:hover{
+    background-color: gray;
+}
+
+#continueBtn {
+    margin-top: 5%;
+    margin-left: 65%;
+    width: 5%;
+    font-size: 2vh;
+    border-color: gray;
+    border-style: groove;
+    border-width: 3px;
+}
+#continueBtn:hover{
+    background-color: rgb(165, 162, 162);
+}
